@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animazione del Ninja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="startGame()">
+    <h1>Ninja</h1>
+    <button onmousedown="moveup()" onmouseup="clearmove()">UP</button><br><br>
+    <button onmousedown="moveleft()" onmouseup="clearmove()">LEFT</button>
+    <button onmousedown="moveright()" onmouseup="clearmove()">RIGHT</button><br><br>
+    <button onmousedown="movedown()" onmouseup="clearmove()">DOWN</button>
+
+    <script src="sprites.js"></script>
+    <script src="lavoro.js"></script>
+    <script src="bushObject.js"></script>
+</body>
+
+</html>
